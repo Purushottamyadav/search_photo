@@ -1,0 +1,76 @@
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 40px;
+}
+
+.body {
+  display: inline-block;
+  font-size: 3rem;
+  /* padding-top: 170px; */
+  
+}
+
+.form {
+  display: flex;
+}
+
+.label {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.input {
+  width: 800px;
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  line-height: 2.8rem;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+.button {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  width: 100px;
+  transition: background-color 250ms;
+  margin: 10px;
+}
+
+
+.card-list {
+  column-count: 3;
+}
+
+.card {
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.card--image {
+    flex: 100%;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+.bookmark {
+    background-color: rgba(87, 85, 85, 0.75);
+    color: white;
+    padding: 10px;
+    border: 1px solid rgba(91, 89, 89, 0.75);
+    font-size: 1.4rem;
+    cursor: pointer;
+    width: 200px;
+    transition: background-color 250ms;
+    margin-left: 800px;
+  margin-bottom: 80px;
+
+  }
+ 
+
+
